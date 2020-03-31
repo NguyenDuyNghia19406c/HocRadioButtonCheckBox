@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioButtonActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn bình chọn ai?" />
+
+    <RadioGroup
+        android:id="@+id/grpBinhChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radObama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obama" />
+
+        <RadioButton
+            android:id="@+id/radPutin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Putin" />
+
+        <RadioButton
+            android:id="@+id/radKim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kim Jong Un" />
+
+        <Button
+            android:id="@+id/btnBinhChon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bình chọn" />
+
+        <TextView
+            android:id="@+id/txtBinhChon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Người bình chọn" />
+    </RadioGroup>
+
+</LinearLayout>

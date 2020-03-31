@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".RadioButtonActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Những sở thích của bạn" />
+
+        <CheckBox
+            android:id="@+id/chkAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android" />
+
+        <CheckBox
+            android:id="@+id/chkCSharp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C#" />
+
+        <CheckBox
+            android:id="@+id/chkSwift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swift" />
+
+        <Button
+
+            android:id="@+id/btnXacNhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận" />
+
+        <TextView
+            android:id="@+id/txtSoThich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Các sở thích ở đây" />
+    </LinearLayout>
+</LinearLayout>
